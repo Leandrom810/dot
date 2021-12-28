@@ -1,0 +1,11 @@
+# GIMP action-history
+
+(history-item "tools-opacity-increase" 4)
+(history-item "edit-paste" 1)
+(history-item "image-new" 3)
+(history-item "file-quit" 2)
+(history-item "dialogs-about" 0)
+(history-item "edit-cut" 0)
+(history-item "edit-clear" 1)
+
+# end of action-history
