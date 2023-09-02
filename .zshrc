@@ -67,11 +67,12 @@ lfcd () {
 bindkey -s '^p' 'lfcd\n'
 
 # aliases 
-alias nv="nvim"
+# Nothing here ZULUL
 
 # Path
 export PATH=$PATH:$HOME/.plan9/bin
-export EDITOR="nvim"
+export EDITOR="lvim"
+export PATH=$PATH:$HOME/.local/bin:$PATH
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
@@ -82,3 +83,4 @@ PROMPT_EOL_MARK=''
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
